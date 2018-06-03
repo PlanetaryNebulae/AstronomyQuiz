@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Astronomy Quiz</string>
+    <string name="_1">1.</string>
+    <string name="question_1">Name the hypothetical particle that moves faster than light.</string>
+    <string name="_2">2.</string>
+    <string name="question_2">What year did we first observe gravitational waves?</string>
+    <string name="_2015">2015</string>
+    <string name="_1741">1741</string>
+    <string name="_1992">1992</string>
+    <string name="_2003">2003</string>
+    <string name="_3">3.</string>
+    <string name="question_3">Select the planetary nebula(e).</string>
+    <string name="helix_nebula">Helix Nebula</string>
+    <string name="eagle_nebula">Eagle Nebula</string>
+    <string name="cat_eye_nebula">Cat’s Eye Nebula</string>
+    <string name="horsehead_nebula">Horsehead Nebula</string>
+    <string name="_4">4.</string>
+    <string name="question_4">Which galaxy is nearest to the Milky Way?</string>
+    <string name="andromeda">Andromeda</string>
+    <string name="sombrero_galaxy">Sombrero Galaxy</string>
+    <string name="canis_major_dwarf_galaxy">Canis Major Dwarf Galaxy</string>
+    <string name="messier_87">Messier 87</string>
+    <string name="_5">5.</string>
+    <string name="question_5">Select the dwarf planets in our Solar System.</string>
+    <string name="ceres">Ceres</string>
+    <string name="makemake">Makemake</string>
+    <string name="pluto">Pluto</string>
+    <string name="haumea">Haumea</string>
+    <string name="check_answers">Check Answers</string>
+    <string name="answer">Answer</string>
+</resources>
