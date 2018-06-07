@@ -44,12 +44,22 @@ public class MainActivity extends AppCompatActivity {
          */
         CheckBox questionThreeA = findViewById(R.id.helix_nebula_check_box);
         if (questionThreeA.isChecked()) {
-            gradeResults = gradeResults + 10;
+            gradeResults = gradeResults + 5;
         }
 
-        CheckBox questionThreeB = findViewById(R.id.cats_eye_check_box);
-        if (questionThreeB.isChecked()) {
-            gradeResults = gradeResults + 10;
+        CheckBox questionThreeB = findViewById(R.id.eagle_nebula_check_box);
+        if (!questionThreeB.isChecked()) {
+            gradeResults = gradeResults + 5;
+        }
+
+        CheckBox questionThreeC = findViewById(R.id.cats_eye_check_box);
+        if (questionThreeC.isChecked()) {
+            gradeResults = gradeResults + 5;
+        }
+
+        CheckBox questionThreeD = findViewById(R.id.horsehead_nebula_check_box);
+        if (!questionThreeD.isChecked()) {
+            gradeResults = gradeResults + 5;
         }
 
         /**
@@ -87,6 +97,15 @@ public class MainActivity extends AppCompatActivity {
          * This is to return the gradeResults.
          */
         Toast.makeText(this, "Your grade is " + gradeResults + "%", Toast.LENGTH_LONG).show();
+
+        /**
+         * This is to display a message that depends on the user's score.
+         */
+        if (gradeResults == 100) {
+            Toast.makeText(this, "Astronomical job!", Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "You did good, try again!", Toast.LENGTH_LONG).show();
+        }
     }
 
 }
